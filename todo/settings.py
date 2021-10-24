@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'dia_organizado.urls'
+ROOT_URLCONF = 'todo.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dia_organizado.wsgi.application'
+WSGI_APPLICATION = 'todo.wsgi.application'
 
 
 # Database
